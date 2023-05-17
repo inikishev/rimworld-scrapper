@@ -1,1 +1,1 @@
-basically. basically what this does is the following. alright. so basically this is what this does. uuuh aight so basically it can load xmls from rimworld mods and extract data from them. it can find duplicate defs or find them by filter, and it can then make u an xml patch or whatever to do something with those defs. sounds useful? well too bad because i can't be bothered to write documentation for it. however it should be fairly straightforward if u open the py file
+basically. basically what this does is the following. alright. so basically this is what this does.
