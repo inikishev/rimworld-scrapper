@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Biomes! Core > Animal Collab Project Vanilla-Style -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, biomesteam.biomescore, acpteam.acpvanillastyle">
+        <defName>dupes_biomesteam_biomescore_acpteam_acpvanillastyle</defName>
+        <label>Biomes! Core &gt; Animal Collab Project Vanilla-Style</label>
+        <defs>
+            <li MayRequire="biomesteam.biomescore">PawnKindDef/ACPFlamingo</li> <!--BiomesIslands_Flamingo/flamingo-->
+            <li MayRequire="biomesteam.biomescore">ThingDef/ACPFlamingo</li> <!--BiomesIslands_Flamingo/flamingo-->
+            <li MayRequire="biomesteam.biomescore">ThingDef/ACPEggFlamingoFertilized</li> <!--BiomesIslands_EggFlamingoFertilized/flamingo egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

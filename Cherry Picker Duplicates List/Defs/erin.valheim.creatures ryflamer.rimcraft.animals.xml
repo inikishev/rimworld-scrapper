@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Erin's Valheim Creatures > [Ry]Rimcraft Animals -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, erin.valheim.creatures, ryflamer.rimcraft.animals">
+        <defName>dupes_erin_valheim_creatures_ryflamer_rimcraft_animals</defName>
+        <label>Erin's Valheim Creatures &gt; [Ry]Rimcraft Animals</label>
+        <defs>
+            <li MayRequire="erin.valheim.creatures">PawnKindDef/WoW_Animal_Frostwolf</li> <!--ERN_FrostWolf/frostwolf-->
+            <li MayRequire="erin.valheim.creatures">ThingDef/WoW_Animal_Frostwolf</li> <!--ERN_FrostWolf/frostwolf-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

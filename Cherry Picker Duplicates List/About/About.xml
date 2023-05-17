@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+   <name>Cherry Picker Duplicates List</name>
+   <packageId>tests.CPDL</packageId>
+   <description>When you have certain mod combinations loaded, this mod will add Cherry Picker lists that remove duplicate items and animals. Vanilla Expanded mods are the highest priority and won't be removed, after that I based priority on roughly how popular/updated the mod is.
+
+Does nothing by default! Make sure to go to Settings&gt;Mod Settings&gt;Cherry Picker, search for "Duplicates List" and untick lists that you want to be removed. Unticking lists doesn't require game restart to remove duplicates, however reticking them does.
+
+For example, both Vanilla Animals Expanded and HC_Animal_4 add crocodiles, giraffes, and some other animals. So if you have those mods, there will be a Cherry Picker list called `Vanilla Animals Expanded &gt; HC_Animal_4`. If you untick that list, all duplicate animals from HC_Animal_4 will be disabled.
+
+It only removes very obvious duplicates. Cherry Picker lists only appear if both appropriate mods are loaded - you can be sure everything that is removed is a duplicate.
+
+If you have a lot of mods, you might get a lot of lists because many mods have duplicates. You can just untick all of them if you don't want to have any duplicates. In Cherry Picker interface, try moving your mouse over the ticks while holding left click to do it quicker compared to clicking on each one.
+
+Also if you, for example, untick `Vanilla Animals Expanded &gt; HC_Animal_4`, and then remove Vanilla Animals Expanded, it will remove the VAE - HC_Animal_4 list as well since not all mods are now present, but animals from HC_Animals will remain disabled in Cherry Picker. Make sure to either retick the cherry picker list before removing the mod, or undisable disabled entries afterwards.</description>
+   <author>test</author>
+   <supportedVersions>
+      <li>1.3</li> <li>1.4</li>
+   </supportedVersions>
+   <modDependencies>
+      <li>
+         <packageId>owlchemist.cherrypicker</packageId>
+         <displayName>Cherry Picker</displayName>
+         <steamWorkshopUrl>steam://url/CommunityFilePage/2633276599</steamWorkshopUrl>
+      </li>
+   </modDependencies>
+   <loadAfter>
+      <li>owlchemist.cherrypicker</li>
+   </loadAfter>
+</ModMetaData>

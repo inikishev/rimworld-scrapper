@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Vanilla Animals Expanded > Beasts of the Rim (Continued) -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, vanillaexpanded.vanillaanimalsexpanded, mlie.beastsoftherim">
+        <defName>dupes_vanillaexpanded_vanillaanimalsexpanded_mlie_beastsoftherim</defName>
+        <label>Vanilla Animals Expanded &gt; Beasts of the Rim (Continued)</label>
+        <defs>
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/BlackBear</li> <!--AEXP_BlackBear/black bear-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/Mandrill</li> <!--AEXP_Mandrill/mandrill-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/Penguin</li> <!--AEXP_Penguin/penguin-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/Zebra</li> <!--AEXP_Zebra/zebra-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/BlackBear</li> <!--AEXP_BlackBear/black bear-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/Mandrill</li> <!--AEXP_Mandrill/mandrill-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/Penguin</li> <!--AEXP_Penguin/penguin-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/EggPenguinFertilized</li> <!--AEXP_EggPenguinFertilized/penguin egg (fert.)-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/Zebra</li> <!--AEXP_Zebra/zebra-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Mooloh's Dnd Menagerie > HC_Creatures_1 -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, mooloh.dndmenagerie, hc.creatures.1">
+        <defName>dupes_mooloh_dndmenagerie_hc_creatures_1</defName>
+        <label>Mooloh's Dnd Menagerie &gt; HC_Creatures_1</label>
+        <defs>
+            <li MayRequire="mooloh.dndmenagerie">PawnKindDef/HC_Owlbear</li> <!--DND_Owlbear/owlbear-->
+            <li MayRequire="mooloh.dndmenagerie">ThingDef/HC_Owlbear</li> <!--DND_Owlbear/owlbear-->
+            <li MayRequire="mooloh.dndmenagerie">ThingDef/EggOwlbear</li> <!--DND_EggOwlbearFertilized/owlbear egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

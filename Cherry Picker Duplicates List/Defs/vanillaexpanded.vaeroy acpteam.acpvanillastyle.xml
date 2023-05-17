@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Vanilla Animals Expanded — Royal Animals > Animal Collab Project Vanilla-Style -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, vanillaexpanded.vaeroy, acpteam.acpvanillastyle">
+        <defName>dupes_vanillaexpanded_vaeroy_acpteam_acpvanillastyle</defName>
+        <label>Vanilla Animals Expanded — Royal Animals &gt; Animal Collab Project Vanilla-Style</label>
+        <defs>
+            <li MayRequire="vanillaexpanded.vaeroy">PawnKindDef/ACPAngoraRabbit</li> <!--VAERoy_AngoraRabbit/angora rabbit-->
+            <li MayRequire="vanillaexpanded.vaeroy">ThingDef/ACPAngoraRabbit</li> <!--VAERoy_AngoraRabbit/angora rabbit-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Biomes! Bunnies > Beasts of the Rim (Continued) -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, biomesteam.bunnies, mlie.beastsoftherim">
+        <defName>dupes_biomesteam_bunnies_mlie_beastsoftherim</defName>
+        <label>Biomes! Bunnies &gt; Beasts of the Rim (Continued)</label>
+        <defs>
+            <li MayRequire="biomesteam.bunnies">PawnKindDef/Rabbuck</li> <!--Bunnies_Rabbuck/rabbuck-->
+            <li MayRequire="biomesteam.bunnies">ThingDef/Rabbuck</li> <!--Bunnies_Rabbuck/rabbuck-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

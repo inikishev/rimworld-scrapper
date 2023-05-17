@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Biomes! Bunnies > Creatures of Azeroth -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, biomesteam.bunnies, tigerblut.creaturesofazeroth">
+        <defName>dupes_biomesteam_bunnies_tigerblut_creaturesofazeroth</defName>
+        <label>Biomes! Bunnies &gt; Creatures of Azeroth</label>
+        <defs>
+            <li MayRequire="biomesteam.bunnies">PawnKindDef/Wolpertinger</li> <!--Bunnies_Wolpertinger/wolpertinger-->
+            <li MayRequire="biomesteam.bunnies">ThingDef/Wolpertinger</li> <!--Bunnies_Wolpertinger/wolpertinger-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

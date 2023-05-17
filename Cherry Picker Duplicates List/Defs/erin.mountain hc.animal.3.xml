@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Erin's Mountain Animals > HC_Animal_3 -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, erin.mountain, hc.animal.3">
+        <defName>dupes_erin_mountain_hc_animal_3</defName>
+        <label>Erin's Mountain Animals &gt; HC_Animal_3</label>
+        <defs>
+            <li MayRequire="erin.mountain">PawnKindDef/HC_Snowleopard</li> <!--Snow_leopard/Snow leopard-->
+            <li MayRequire="erin.mountain">ThingDef/HC_Snowleopard</li> <!--Snow_leopard/Snow leopard-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

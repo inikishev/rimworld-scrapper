@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Biomes! Islands > HC_Animal_2 -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, biomesteam.biomesislands, hc.animal.2">
+        <defName>dupes_biomesteam_biomesislands_hc_animal_2</defName>
+        <label>Biomes! Islands &gt; HC_Animal_2</label>
+        <defs>
+            <li MayRequire="biomesteam.biomesislands">PawnKindDef/HC_Galapagostortoise</li> <!--BiomesIslands_GalapagosTortoise/galapagos tortoise-->
+            <li MayRequire="biomesteam.biomesislands">ThingDef/HC_Galapagostortoise</li> <!--BiomesIslands_GalapagosTortoise/galapagos tortoise-->
+            <li MayRequire="biomesteam.biomesislands">ThingDef/EggGalapagostortoiseFertilized</li> <!--BiomesIslands_EggGalapagosTortoiseFertilized/galapagos tortoise egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

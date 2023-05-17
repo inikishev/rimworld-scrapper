@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Vanilla Animals Expanded > CPBeasties -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, vanillaexpanded.vanillaanimalsexpanded, cucumpear.beasties">
+        <defName>dupes_vanillaexpanded_vanillaanimalsexpanded_cucumpear_beasties</defName>
+        <label>Vanilla Animals Expanded &gt; CPBeasties</label>
+        <defs>
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/CCPBOtter</li> <!--AEXP_Otter/otter-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/CCPBPenguin</li> <!--AEXP_Penguin/penguin-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/CCPBOtter</li> <!--AEXP_Otter/otter-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/CCPBPenguin</li> <!--AEXP_Penguin/penguin-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/CCPBEggPenguinFertilized</li> <!--AEXP_EggPenguinFertilized/penguin egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

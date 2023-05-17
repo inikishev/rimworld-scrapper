@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Biomes! Islands > CPBeasties -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, biomesteam.biomesislands, cucumpear.beasties">
+        <defName>dupes_biomesteam_biomesislands_cucumpear_beasties</defName>
+        <label>Biomes! Islands &gt; CPBeasties</label>
+        <defs>
+            <li MayRequire="biomesteam.biomesislands">PawnKindDef/CCPBKiwi</li> <!--BiomesIslands_KiwiBird/kiwi-->
+            <li MayRequire="biomesteam.biomesislands">ThingDef/CCPBKiwi</li> <!--BiomesIslands_KiwiBird/kiwi-->
+            <li MayRequire="biomesteam.biomesislands">ThingDef/CCPBEggKiwiFertilized</li> <!--BiomesIslands_EggKiwiFertilized/kiwi egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

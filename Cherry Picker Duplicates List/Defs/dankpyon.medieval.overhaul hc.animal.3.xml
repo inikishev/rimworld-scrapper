@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Medieval Overhaul > HC_Animal_3 -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, dankpyon.medieval.overhaul, hc.animal.3">
+        <defName>dupes_dankpyon_medieval_overhaul_hc_animal_3</defName>
+        <label>Medieval Overhaul &gt; HC_Animal_3</label>
+        <defs>
+            <li MayRequire="dankpyon.medieval.overhaul">PawnKindDef/HC_Hyena</li> <!--DankPyon_Hyena/Hyena-->
+            <li MayRequire="dankpyon.medieval.overhaul">ThingDef/HC_Hyena</li> <!--DankPyon_Hyena/Hyena-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

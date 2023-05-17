@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Medieval Overhaul > Obsidia Expansion -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, dankpyon.medieval.overhaul, obsidiaexpansion.core">
+        <defName>dupes_dankpyon_medieval_overhaul_obsidiaexpansion_core</defName>
+        <label>Medieval Overhaul &gt; Obsidia Expansion</label>
+        <defs>
+            <li MayRequire="dankpyon.medieval.overhaul">PawnKindDef/OE_Direwolf</li> <!--DankPyon_Direwolf/Direwolf-->
+            <li MayRequire="dankpyon.medieval.overhaul">ThingDef/OE_Direwolf</li> <!--DankPyon_Direwolf/Direwolf-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- ReGrowth: Extinct Animals > Jurassic Rimworld - Dinosaurs Only (Continued) -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, regrowth.botr.extinctanimalspack, mlie.jurassicrimworlddinosaursonly">
+        <defName>dupes_regrowth_botr_extinctanimalspack_mlie_jurassicrimworlddinosaursonly</defName>
+        <label>ReGrowth: Extinct Animals &gt; Jurassic Rimworld - Dinosaurs Only (Continued)</label>
+        <defs>
+            <li MayRequire="regrowth.botr.extinctanimalspack">PawnKindDef/JRWVelociraptor</li> <!--RG_Velociraptor/velociraptor-->
+            <li MayRequire="regrowth.botr.extinctanimalspack">ThingDef/JRWVelociraptor</li> <!--RG_Velociraptor/velociraptor-->
+            <li MayRequire="regrowth.botr.extinctanimalspack">ThingDef/VelociraptorEggFertilized</li> <!--RG_EggVelociraptorFertilized/velociraptor egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

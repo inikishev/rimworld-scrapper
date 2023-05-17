@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Bigfoots > HC_Creatures_1 -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, gurrukk.bigfoots, hc.creatures.1">
+        <defName>dupes_gurrukk_bigfoots_hc_creatures_1</defName>
+        <label>Bigfoots &gt; HC_Creatures_1</label>
+        <defs>
+            <li MayRequire="gurrukk.bigfoots">PawnKindDef/HC_Yeti</li> <!--Yeti/yeti-->
+            <li MayRequire="gurrukk.bigfoots">ThingDef/HC_Yeti</li> <!--Yeti/yeti-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>
