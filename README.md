@@ -93,3 +93,4 @@ TOP100 SUSPECTS:
 86/98 Royalty ludeon.rimworld.royalty
 ... rest of the mods mentioned in logs...
 ```
+Means HugsLib is in all 98 logs with your error, royalty is in 86 out of 98 logs
