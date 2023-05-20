@@ -91,7 +91,7 @@ def load_log(path = None, text = None):
 
 def download_from_gist_github(query, pages = 3):
     from . import GistGithub as GG
-    return [load_log(text = i) for i in GG.download_logs(query=query, pages=pages)]
+    return [load_log(text = i) for i in GG.download_logs(query=query, pages=pages) if isinstance(i, str)]
 
 def find_sus_mods(error, pages = 10, exact = True):
     if exact is True and not (error.startswith('"') and error.endswith('"')): error = '"' + error + '"'
