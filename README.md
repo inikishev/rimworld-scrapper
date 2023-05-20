@@ -12,7 +12,7 @@ rws.find_duplicates_between_two_mods(
   mod_duplicate = r'D:\SteamLibrary\steamapps\workshop\content\294100\2013243795', 
   types = ['ThingDef', 'PawnKindDef'])
 ```
-it writes ready to use cherry picker XML file next to your .py file:
+it writes ready to use cherry picker XML file next to your .py file, however make sure to check it because there are false positives:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
