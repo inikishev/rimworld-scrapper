@@ -1,9 +1,11 @@
 doesn't need any libraries
-import it
+
+## import it
 ```py
 import RimWorld_Scrapper as rws
 ```
-Find duplicates between two mods:
+
+## Find duplicates between two mods:
 ```py
 rws.find_duplicates_between_two_mods(
   mod_priority = r'D:\SteamLibrary\steamapps\workshop\content\294100\2871933948', 
@@ -27,8 +29,7 @@ it writes ready to use cherry picker XML file next to your .py file:
     </CherryPicker.DefList>
 </Defs>
 ```
-
-Find all duplicates in your mods:
+## Find all duplicates in your mods:
 ```py
 rws.find_duplicates(r'D:\SteamLibrary\steamapps\workshop\content\294100)
 ```
@@ -53,7 +54,7 @@ It writes a file like this:
 ```
 So filter using `types` argument to avoid junk like AbilityDefs
 
-Extract all defs from mods:
+## Extract all defs from mods:
 ```py
 rws.get_all_mod_defs([r'D:\SteamLibrary\steamapps\workshop\content\294100\2871933948', r'D:\SteamLibrary\steamapps\workshop\content\294100\2013243795'])
 ```
@@ -73,8 +74,8 @@ It writes a file like this (this one has types = 'FactionDef' attribute):
   
     ... rest of all defs ...
 </AllDefs>
-
-Search and count mods in gist.github logs with the same error as in your log:
+```
+## Search and count mods in gist.github logs with the same error as in your log:
 ```py
 from RimWorld_Scrapper import log
 log.find_sus_mods("[KCSG] Cannot add more symbolDef. Maximum amount reached")
