@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Alpha Mythology > Rimdark 40k: Fauna -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, sarg.magicalmenagerie, pagoda.rimdarkfortykfauna">
+        <defName>dupes_sarg_magicalmenagerie_pagoda_rimdarkfortykfauna</defName>
+        <label>Alpha Mythology &gt; Rimdark 40k: Fauna</label>
+        <defs>
+            <li MayRequire="sarg.magicalmenagerie">PawnKindDef/PGD_Salamander</li> <!--MM_Salamander/salamander-->
+            <li MayRequire="sarg.magicalmenagerie">ThingDef/PGD_Salamander</li> <!--MM_Salamander/salamander-->
+            <li MayRequire="sarg.magicalmenagerie">ThingDef/PGD_EggSalamanderFertilized</li> <!--MM_EggSalamanderFertilized/salamander egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

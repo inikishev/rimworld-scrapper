@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- ReGrowth: Extinct Animals > Dinosauria -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, regrowth.botr.extinctanimalspack, spincrus.dinosauria">
+        <defName>dupes_regrowth_botr_extinctanimalspack_spincrus_dinosauria</defName>
+        <label>ReGrowth: Extinct Animals &gt; Dinosauria</label>
+        <defs>
+            <li MayRequire="regrowth.botr.extinctanimalspack">PawnKindDef/Velociraptor</li> <!--RG_Velociraptor/velociraptor-->
+            <li MayRequire="regrowth.botr.extinctanimalspack">ThingDef/Velociraptor</li> <!--RG_Velociraptor/velociraptor-->
+            <li MayRequire="regrowth.botr.extinctanimalspack">ThingDef/EggVelociraptorFertilized</li> <!--RG_EggVelociraptorFertilized/velociraptor egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Race to the Rim > Scaled World -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, sargoskar.racetotherim, scaled.world">
+        <defName>dupes_sargoskar_racetotherim_scaled_world</defName>
+        <label>Race to the Rim &gt; Scaled World</label>
+        <defs>
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Deadly_Nadder</li> <!--RttR_Nadder/deadly nadder-->
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Fury</li> <!--RttR_Fury/fury-->
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Hideous_Zippleback</li> <!--RttR_Zippleback/hideous zippleback-->
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Monstrous_Nightmare</li> <!--RttR_Nightmare/monstrous nightmare-->
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Rumblehorn</li> <!--RttR_Rumblehorn/rumblehorn-->
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Skrill</li> <!--RttR_Skrill/skrill-->
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Stormcutter</li> <!--RttR_Stormcutter/stormcutter-->
+            <li MayRequire="sargoskar.racetotherim">PawnKindDef/Triple_Stryke</li> <!--RttR_TripleStryke/triple stryke-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Deadly_Nadder</li> <!--RttR_Nadder/deadly nadder-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/EggNadderFertilized</li> <!--RttR_EggNadderFertilized/deadly nadder egg (fert.)-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Fury</li> <!--RttR_Fury/fury-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/EggFuryFertilized</li> <!--RttR_EggFuryFertilized/fury egg (fert.)-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Hideous_Zippleback</li> <!--RttR_Zippleback/hideous zippleback-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/EggZipplebackFertilized</li> <!--RttR_EggZipplebackFertilized/hideous zippleback egg (fert.)-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Monstrous_Nightmare</li> <!--RttR_Nightmare/monstrous nightmare-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Rumblehorn</li> <!--RttR_Rumblehorn/rumblehorn-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/EggRumblehornFertilized</li> <!--RttR_EggRumblehornFertilized/rumblehorn egg (fert.)-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Skrill</li> <!--RttR_Skrill/skrill-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/EggSkrillFertilized</li> <!--RttR_EggSkrillFertilized/skrill egg (fert.)-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Stormcutter</li> <!--RttR_Stormcutter/stormcutter-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/EggStormcutterFertilized</li> <!--RttR_EggStormcutterFertilized/stormcutter egg (fert.)-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/Triple_Stryke</li> <!--RttR_TripleStryke/triple stryke-->
+            <li MayRequire="sargoskar.racetotherim">ThingDef/EggStrykeFertilized</li> <!--RttR_EggTripleStrykeFertilized/triple stryke egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

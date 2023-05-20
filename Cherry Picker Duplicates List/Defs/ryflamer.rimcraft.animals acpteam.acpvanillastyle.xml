@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- [Ry]Rimcraft Animals > Animal Collab Project Vanilla-Style -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, ryflamer.rimcraft.animals, acpteam.acpvanillastyle">
+        <defName>dupes_ryflamer_rimcraft_animals_acpteam_acpvanillastyle</defName>
+        <label>[Ry]Rimcraft Animals &gt; Animal Collab Project Vanilla-Style</label>
+        <defs>
+            <li MayRequire="ryflamer.rimcraft.animals">PawnKindDef/ACPDirewolf</li> <!--WoW_Animal_Direwolf/direwolf-->
+            <li MayRequire="ryflamer.rimcraft.animals">ThingDef/ACPDirewolf</li> <!--WoW_Animal_Direwolf/direwolf-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

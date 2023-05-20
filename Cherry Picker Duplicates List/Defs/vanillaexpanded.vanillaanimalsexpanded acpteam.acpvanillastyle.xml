@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Vanilla Animals Expanded > Animal Collab Project Vanilla-Style -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, vanillaexpanded.vanillaanimalsexpanded, acpteam.acpvanillastyle">
+        <defName>dupes_vanillaexpanded_vanillaanimalsexpanded_acpteam_acpvanillastyle</defName>
+        <label>Vanilla Animals Expanded &gt; Animal Collab Project Vanilla-Style</label>
+        <defs>
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPBlackbear</li> <!--AEXP_BlackBear/black bear-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPCheetah</li> <!--AEXP_Cheetah/cheetah-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPGiraffe</li> <!--AEXP_Giraffe/giraffe-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPHedgehog</li> <!--AEXP_Hedgehog/hedgehog-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPHippopotamus</li> <!--AEXP_Hippopotamus/hippopotamus-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPLion</li> <!--AEXP_Lion/lion-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPMegascorpion</li> <!--AEXP_Megascorpion/megascorpion-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPMunchkinCat</li> <!--AEXP_CatMunchkin/munchkin cat-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPOtter</li> <!--AEXP_Otter/otter-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPPenguin</li> <!--AEXP_Penguin/penguin-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPPorcupine</li> <!--AEXP_Porcupine/porcupine-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPRedPanda</li> <!--AEXP_RedPanda/red panda-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPSpottedSeal</li> <!--AEXP_Seal/seal-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPTapir</li> <!--AEXP_Tapir/tapir-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPTiger</li> <!--AEXP_Tiger/tiger-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/ACPWalrus</li> <!--AEXP_Walrus/walrus-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPBlackbear</li> <!--AEXP_BlackBear/black bear-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPCheetah</li> <!--AEXP_Cheetah/cheetah-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPGiraffe</li> <!--AEXP_Giraffe/giraffe-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPHedgehog</li> <!--AEXP_Hedgehog/hedgehog-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPHippopotamus</li> <!--AEXP_Hippopotamus/hippopotamus-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPLion</li> <!--AEXP_Lion/lion-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPMegascorpion</li> <!--AEXP_Megascorpion/megascorpion-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPMunchkinCat</li> <!--AEXP_CatMunchkin/munchkin cat-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPOtter</li> <!--AEXP_Otter/otter-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPPenguin</li> <!--AEXP_Penguin/penguin-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPEggPenguinFertilized</li> <!--AEXP_EggPenguinFertilized/penguin egg (fert.)-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPEggPlatypusFertilized</li> <!--AEXP_EggPlatypusFertilized/platypus egg (fert.)-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPPorcupine</li> <!--AEXP_Porcupine/porcupine-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPRedPanda</li> <!--AEXP_RedPanda/red panda-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPSpottedSeal</li> <!--AEXP_Seal/seal-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPTapir</li> <!--AEXP_Tapir/tapir-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPTiger</li> <!--AEXP_Tiger/tiger-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPWalrus</li> <!--AEXP_Walrus/walrus-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/ACPWalrusTusk</li> <!--AEXP_WalrusTusk/walrus tusk-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

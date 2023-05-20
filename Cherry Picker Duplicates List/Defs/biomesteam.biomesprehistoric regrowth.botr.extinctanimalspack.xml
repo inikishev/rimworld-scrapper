@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Biomes! Prehistoric > ReGrowth: Extinct Animals -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, biomesteam.biomesprehistoric, regrowth.botr.extinctanimalspack">
+        <defName>dupes_biomesteam_biomesprehistoric_regrowth_botr_extinctanimalspack</defName>
+        <label>Biomes! Prehistoric &gt; ReGrowth: Extinct Animals</label>
+        <defs>
+            <li MayRequire="biomesteam.biomesprehistoric">PawnKindDef/RG_Velociraptor</li> <!--BMT_Velociraptor/velociraptor-->
+            <li MayRequire="biomesteam.biomesprehistoric">ThingDef/RG_Velociraptor</li> <!--BMT_Velociraptor/velociraptor-->
+            <li MayRequire="biomesteam.biomesprehistoric">ThingDef/RG_EggVelociraptorFertilized</li> <!--BMT_VelociraptorEggFertilized/velociraptor egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

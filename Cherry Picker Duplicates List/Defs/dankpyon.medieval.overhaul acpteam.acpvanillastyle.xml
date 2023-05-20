@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Medieval Overhaul > Animal Collab Project Vanilla-Style -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, dankpyon.medieval.overhaul, acpteam.acpvanillastyle">
+        <defName>dupes_dankpyon_medieval_overhaul_acpteam_acpvanillastyle</defName>
+        <label>Medieval Overhaul &gt; Animal Collab Project Vanilla-Style</label>
+        <defs>
+            <li MayRequire="dankpyon.medieval.overhaul">PawnKindDef/ACPDirewolf</li> <!--DankPyon_Direwolf/Direwolf-->
+            <li MayRequire="dankpyon.medieval.overhaul">ThingDef/ACPDirewolf</li> <!--DankPyon_Direwolf/Direwolf-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

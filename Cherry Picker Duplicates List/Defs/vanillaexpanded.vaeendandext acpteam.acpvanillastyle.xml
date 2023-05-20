@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Vanilla Animals Expanded — Endangered > Animal Collab Project Vanilla-Style -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, vanillaexpanded.vaeendandext, acpteam.acpvanillastyle">
+        <defName>dupes_vanillaexpanded_vaeendandext_acpteam_acpvanillastyle</defName>
+        <label>Vanilla Animals Expanded — Endangered &gt; Animal Collab Project Vanilla-Style</label>
+        <defs>
+            <li MayRequire="vanillaexpanded.vaeendandext">PawnKindDef/ACPWildDog</li> <!--AEXP_AfricanWildDog/african wild dog-->
+            <li MayRequire="vanillaexpanded.vaeendandext">PawnKindDef/ACPBlackRhinoceros</li> <!--AEXP_BlackRhino/black rhinoceros-->
+            <li MayRequire="vanillaexpanded.vaeendandext">ThingDef/ACPWildDog</li> <!--AEXP_AfricanWildDog/african wild dog-->
+            <li MayRequire="vanillaexpanded.vaeendandext">ThingDef/ACPBlackRhinoceros</li> <!--AEXP_BlackRhino/black rhinoceros-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

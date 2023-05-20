@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- HC_Creatures_1 > [Ry]Rimcraft Animals -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, hc.creatures.1, ryflamer.rimcraft.animals">
+        <defName>dupes_hc_creatures_1_ryflamer_rimcraft_animals</defName>
+        <label>HC_Creatures_1 &gt; [Ry]Rimcraft Animals</label>
+        <defs>
+            <li MayRequire="hc.creatures.1">PawnKindDef/WoW_Animal_Unicorn</li> <!--HC_Unicorn/Unicorn-->
+            <li MayRequire="hc.creatures.1">ThingDef/WoW_Animal_Unicorn</li> <!--HC_Unicorn/Unicorn-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

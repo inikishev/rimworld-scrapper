@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Biomes! Caverns > Beasts of the Rim -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, biomesteam.biomescaverns, dey.beasts.of.the.rim">
+        <defName>dupes_biomesteam_biomescaverns_dey_beasts_of_the_rim</defName>
+        <label>Biomes! Caverns &gt; Beasts of the Rim</label>
+        <defs>
+            <li MayRequire="biomesteam.biomescaverns">PawnKindDef/AcidSlug</li> <!--BMT_AcidSlug/acid slug-->
+            <li MayRequire="biomesteam.biomescaverns">ThingDef/AcidSlug</li> <!--BMT_AcidSlug/acid slug-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

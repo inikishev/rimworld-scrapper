@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Obsidia Expansion > [Ry]Rimcraft Animals -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, obsidiaexpansion.core, ryflamer.rimcraft.animals">
+        <defName>dupes_obsidiaexpansion_core_ryflamer_rimcraft_animals</defName>
+        <label>Obsidia Expansion &gt; [Ry]Rimcraft Animals</label>
+        <defs>
+            <li MayRequire="obsidiaexpansion.core">PawnKindDef/WoW_Animal_Direwolf</li> <!--OE_Direwolf/direwolf-->
+            <li MayRequire="obsidiaexpansion.core">PawnKindDef/WoW_Animal_Raptor</li> <!--OE_Raptor/raptor-->
+            <li MayRequire="obsidiaexpansion.core">ThingDef/WoW_Animal_Direwolf</li> <!--OE_Direwolf/direwolf-->
+            <li MayRequire="obsidiaexpansion.core">ThingDef/WoW_Animal_Raptor</li> <!--OE_Raptor/raptor-->
+            <li MayRequire="obsidiaexpansion.core">ThingDef/EggWoWRaptorFertilized</li> <!--OE_EggRaptorFertilized/raptor egg (fert.)-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>

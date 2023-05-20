@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!-- Vanilla Animals Expanded > HC_Animal_3 -->
+    <CherryPicker.DefList MayRequire="owlchemist.cherrypicker, vanillaexpanded.vanillaanimalsexpanded, hc.animal.3">
+        <defName>dupes_vanillaexpanded_vanillaanimalsexpanded_hc_animal_3</defName>
+        <label>Vanilla Animals Expanded &gt; HC_Animal_3</label>
+        <defs>
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/HC_Cheetah</li> <!--AEXP_Cheetah/cheetah-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/HC_Hyena</li> <!--AEXP_Hyena/hyena-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/HC_Jaguar</li> <!--AEXP_Jaguar/jaguar-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/HC_Lion</li> <!--AEXP_Lion/lion-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">PawnKindDef/HC_Tiger</li> <!--AEXP_Tiger/tiger-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/HC_Cheetah</li> <!--AEXP_Cheetah/cheetah-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/HC_Hyena</li> <!--AEXP_Hyena/hyena-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/HC_Jaguar</li> <!--AEXP_Jaguar/jaguar-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/HC_Lion</li> <!--AEXP_Lion/lion-->
+            <li MayRequire="vanillaexpanded.vanillaanimalsexpanded">ThingDef/HC_Tiger</li> <!--AEXP_Tiger/tiger-->
+        </defs>
+    </CherryPicker.DefList>
+</Defs>
