@@ -14,9 +14,9 @@ rws.find_duplicates_between_two_mods(
 ```
 It writes ready to use cherry picker XML file next to your .py file. You can just plop that file straight into your mod's Defs folder, launch the game and click on the list in cherry picker.
 
-Duplicates are things of the same type (like ThingDef) that have the same label, also before comparison all labels are converted to lowercase and all characters except letters are removed, so no spaces. 
+Duplicates are things of the same type (like ThingDef) that have the same label, also before comparison all labels are converted to lowercase and all characters except letters are removed, so no spaces. That means "black bear" and "BlackBear" will be considered duplicates.
 
-Make sure to check it, usually it is fine but sometimes mods have non-animal ThingDefs with identical generic labels that you might not want to remove.
+Make sure to check it, usually it is fine but sometimes mods have non-animal ThingDefs with identical generic labels, or something like a gun named after an animal and that animal happens to be in the other mod.
 
 It writes a file like this:
 ```xml
