@@ -17,6 +17,8 @@ It writes ready to use cherry picker XML file next to your .py file. You can jus
 Duplicates are things of the same type (like ThingDef) that have the same label, also before comparison all labels are converted to lowercase and all characters except letters are removed, so no spaces. 
 
 Make sure to check it, usually it is fine but sometimes mods have non-animal ThingDefs with identical generic labels that you might not want to remove.
+
+It writes a file like this:
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
