@@ -12,7 +12,11 @@ rws.find_duplicates_between_two_mods(
   mod_duplicate = r'D:\SteamLibrary\steamapps\workshop\content\294100\2013243795', 
   types = ['ThingDef', 'PawnKindDef'])
 ```
-it writes ready to use cherry picker XML file next to your .py file. Duplicates are things of the same type (like ThingDef) that have the same label, also before comparison all labels are converted to lowercase and all characters except letters are removed, so no spaces. Make sure to check it, usually it is fine but rarely it might catch mods have non-animal ThingDefs with identical generic labels that you might not want to remove.
+It writes ready to use cherry picker XML file next to your .py file. You can just plop that file straight into your mod's Defs folder, launch the game and click on the list in cherry picker.
+
+Duplicates are things of the same type (like ThingDef) that have the same label, also before comparison all labels are converted to lowercase and all characters except letters are removed, so no spaces. 
+
+Make sure to check it, usually it is fine but sometimes mods have non-animal ThingDefs with identical generic labels that you might not want to remove.
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
