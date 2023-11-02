@@ -107,7 +107,7 @@ class MODs:
 
     def load_folder(self, path: str):
         """Loads all mods from a folder. Does NOT perform a recursive search."""
-        for i in os.listdir(path): self.load_mod(f'{path}/{i}')
+        for i in os.listdir(path): self.load_MOD(f'{path}/{i}')
 
     def Defs_duplicates(self, key = 'label_norm', types: list[str] = None, filter_dict: dict[str, str] = None) -> dict[str, list[Def]]: 
         """returns dictionary: `{type/key: [Def 1, Def 2, ...]}` for all Defs with identical type AND key. Type of Def is `rws.Def`.
